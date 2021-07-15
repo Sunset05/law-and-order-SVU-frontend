@@ -1,3 +1,18 @@
+#root {
+  background-image: url("http://i.imgur.com/aU0SHL0.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
+  max-height: 100%;
+}
+body > #root  {
+  height: 100vh;
+}
+body{
+  overflow: hidden;
+}
 body, html {
   border: 0;
   margin: 0;
@@ -13,14 +28,50 @@ nav {
   padding: .5em;
 }
 
+
+/* front page styles go in this section */
+.frontpage-top{
+  justify-content: center;
+  color: whitesmoke;
+  width: 100%;
+  height: 15vh
+}
+
+/* styling for the detectives button. perps button, and rendered characters */
 .character-selection-container{
-  border: black;
   display: flex;
+  justify-content: space-between;
   margin-bottom: 50px;
 }
 .character-selection{
+  display: flex;
   justify-content: center;
   width: 20%;
   height: 80%;
-
 }
+
+/* docs page styling goes in this section */
+.docs-page-container{
+  background-color: rgba(145, 143, 143, .5);
+  border: 1px #ccc solid;
+  color:rgba(17, 17, 17);
+  height: 90%;
+  width: 97%;
+  margin: 10px;
+  display: block;
+}
+
+.docs-page-container-row{
+  max-height: 100%;
+  overflow-y: scroll;
+}
+
+#scrollable-content{
+  max-height: 95%;
+  overflow-y: scroll;
+}
+
+.row{
+  max-height: 95%;
+}
+

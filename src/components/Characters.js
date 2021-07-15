@@ -6,7 +6,7 @@ export default function Characters(props) {
         props.detectives.map(detective => 
             <div className="character-card">
                 <Card>
-                    <Image src={detective.image} />
+                    <img src={detective.image} height={350} />
                     <Card.Content>
                         <Card.Header>{detective.name}</Card.Header>
                         <Card.Description>
@@ -20,21 +20,6 @@ export default function Characters(props) {
     const renderPerps = () =>
         props.perps.map(perp =>
             <div className="character-card">
-                {/* <Box display='flex'> */}
-                    {/* <Card>
-                        <Image src={perp.image} />
-                        <Card.Content>
-                            <Card.Header>{perp.name}</Card.Header>
-                            <Card.Description>
-                                {perp.crime}
-                            </Card.Description>
-                        </Card.Content>
-                        <Card.Content>
-                            <Card.Description>
-                                played by {perp.actor}
-                            </Card.Description>
-                        </Card.Content>
-                    </Card> */}
                     <Card>
                         <Card.Content>
                             <Image src={perp.image} />
@@ -49,14 +34,13 @@ export default function Characters(props) {
         )
 
     return (
-        
-            <Card.Group>
-                {
-                props.detectives 
-                    ? renderDetectives()
-                    : renderPerps()
-                }
-            </Card.Group>
-        
+
+        <Card.Group>
+            {
+            props.detectives 
+                ? renderDetectives()
+                : renderPerps()
+            }
+        </Card.Group>  
     )
 }

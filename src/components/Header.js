@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <Navbar bg="secondary" expand="lg" >
             <Container fluid>
-                <Navbar.Brand href="/">SVU-API</Navbar.Brand>
+                <Navbar.Brand href="/frontpage">SVU-API</Navbar.Brand>
                 <Nav className="me-auto">
                     <Nav.Link href="/about">ABOUT</Nav.Link>
                     <Nav.Link href="/docs">DOCS</Nav.Link>

@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 
 import Header from './components/Header';
 import FrontPage from './pages/FrontPage';
@@ -14,8 +14,11 @@ function App() {
 
       
       <Switch>
+        <Route exact path="/" >
+          <Redirect to="/frontpage" />
+        </Route>
         <Route exact path='/docs' component={DocsPage} />
-        <Route path='/' component={FrontPage} />
+        <Route exact path='/frontpage' component={FrontPage} />
 
 
       </Switch>

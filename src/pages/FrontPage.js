@@ -29,28 +29,29 @@ export default function FrontPage() {
                 <h1 className="svu-frontpage-title">
                     The Law and Order SVU API
                 </h1>
-                <div className="svu-frontpage-image">
-                    image goes here
+                
+            </section>
+
+            <div className="container">
+                <div className="character-selection-container">
+                    <a className="character-selection button" href="/frontpage/">detectives</a>
+                    <a className="character-selection button" href="/frontpage/perps">perps</a>
                 </div>
-            </section>
 
-            <div className="character-selection-container">
-                <a className="character-selection" href="/frontpage/detectives">detectives</a>
-                <a className="character-selection" href="/frontpage/perps">perps</a>
-            </div>
-            <section>
-                <Switch>
-                    <Route exact path='/frontpage/detectives' 
-                        render={(props) => <Characters {...props} detectives={detectives}/>} 
-                    />
-                    <Route exact path='/frontpage/perps' 
-                        render={(props) => <Characters {...props} perps={perps}/>} 
-                    />
-                </Switch>
-            </section>
+                <section>
+                    <Switch>
+                        <Route exact path='/frontpage/' 
+                            render={(props) => <Characters {...props} detectives={detectives}/>} 
+                        />
+                        <Route exact path='/frontpage/perps' 
+                            render={(props) => <Characters {...props} perps={perps}/>} 
+                        />
+                    </Switch>
+                </section>
 
-            <div>
-                some lame footer
+                <div>
+                    some lame footer
+                </div>
             </div>
         </>
 

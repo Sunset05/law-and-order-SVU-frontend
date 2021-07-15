@@ -3,75 +3,17 @@ import React from "react";
 export default function DocsDisplay() {
     return (
         <div class="nine columns docs-page-container-row">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut similique,
-            molestias voluptate porro ex adipisci placeat eos soluta, consectetur
-            assumenda quos earum dolorem ea ducimus voluptas facilis laudantium.
-            Ullam ratione fugit ipsum Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ut similique, molestias voluptate porro ex adipisci
-            placeat eos soluta, consectetur assumenda quos earum dolorem ea
-            ducimus voluptas facilis laudantium. Ullam ratione fugit ipsum Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Ut similique,
-            molestias voluptate porro ex adipisci placeat eos soluta, consectetur
-            assumenda quos earum dolorem ea ducimus voluptas facilis laudantium.
-            Ullam ratione fugit ipsum Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ut similique, molestias voluptate porro ex adipisci
-            placeat eos soluta, consectetur assumenda quos earum dolorem ea
-            ducimus voluptas facilis laudantium. Ullam ratione fugit ipsum Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Ut similique, Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Ut similique,
-            molestias voluptate porro ex adipisci placeat eos soluta, consectetur
-            assumenda quos earum dolorem ea ducimus voluptas facilis laudantium.
-            Ullam ratione fugit ipsum Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ut similique, molestias voluptate porro ex adipisci
-            placeat eos soluta, consectetur assumenda quos earum dolorem ea
-            ducimus voluptas facilis laudantium. Ullam ratione fugit ipsum Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Ut similique,
-            molestias voluptate porro ex adipisci placeat eos soluta, consectetur
-            assumenda quos earum dolorem ea ducimus voluptas facilis laudantium.
-            Ullam ratione fugit ipsum Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ut similique, molestias voluptate porro ex adipisci
-            placeat eos soluta, consectetur assumenda quos earum dolorem ea
-            ducimus voluptas facilis laudantium. Ullam ratione fugit ipsum Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Ut similique, Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Ut similique,
-            molestias voluptate porro ex adipisci placeat eos soluta, consectetur
-            assumenda quos earum dolorem ea ducimus voluptas facilis laudantium.
-            Ullam ratione fugit ipsum Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ut similique, molestias voluptate porro ex adipisci
-            placeat eos soluta, consectetur assumenda quos earum dolorem ea
-            ducimus voluptas facilis laudantium. Ullam ratione fugit ipsum Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Ut similique,
-            molestias voluptate porro ex adipisci placeat eos soluta, consectetur
-            assumenda quos earum dolorem ea ducimus voluptas facilis laudantium.
-            Ullam ratione fugit ipsum Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ut similique, molestias voluptate porro ex adipisci
-            placeat eos soluta, consectetur assumenda quos earum dolorem ea
-            ducimus voluptas facilis laudantium. Ullam ratione fugit ipsum Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Ut similique, Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Ut similique,
-            molestias voluptate porro ex adipisci placeat eos soluta, consectetur
-            assumenda quos earum dolorem ea ducimus voluptas facilis laudantium.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut similique,
-            molestias voluptate porro ex adipisci placeat eos soluta, consectetur
-            assumenda quos earum dolorem ea ducimus voluptas facilis laudantium.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut similique,
-            molestias voluptate porro ex adipisci placeat eos soluta, consectetur
-            assumenda quos earum dolorem ea ducimus voluptas facilis laudantium.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut similique,
-            molestias voluptate porro ex adipisci placeat eos soluta, consectetur
-            assumenda quos earum dolorem ea ducimus voluptas facilis laudantium.
-            Ullam ratione fugit ipsum Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ut similique, molestias voluptate porro ex adipisci
-            placeat eos soluta, consectetur assumenda quos earum dolorem ea
-            ducimus voluptas facilis laudantium. Ullam ratione fugit ipsum Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Ut similique,
-            molestias voluptate porro ex adipisci placeat eos soluta, consectetur
-            assumenda quos earum dolorem ea ducimus voluptas facilis laudantium.
-            Ullam ratione fugit ipsum Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ut similique, molestias voluptate porro ex adipisci
-            placeat eos soluta, consectetur assumenda quos earum dolorem ea
-            ducimus voluptas facilis laudantium. Ullam ratione fugit ipsum Lorem
+            <h1>Introduction</h1>
+            <p>
+                This page holds the information you need to get familiar with the resources of the <strong>Law and Order SVU API.</strong>
+            </p>
 
+            <h1>REST</h1>
+            <p>
+                There are three available resources
+            </p>
+        
+    
         </div>
     );
 }

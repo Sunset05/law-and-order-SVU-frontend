@@ -18,7 +18,7 @@ function App() {
           <Redirect to="/frontpage" />
         </Route>
         <Route exact path='/docs' component={DocsPage} />
-        <Route exact path='/frontpage' component={FrontPage} />
+        <Route  path='/frontpage' component={FrontPage} />
 
 
       </Switch>

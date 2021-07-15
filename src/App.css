@@ -1,18 +1,24 @@
 #root {
-  background-image: url("http://i.imgur.com/aU0SHL0.jpg");
+  background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(19,64,102,0.9962359943977591) 100%);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-color: black;
   max-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+html{
+  background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(19,64,102,0.9962359943977591) 100%);
+  /* font-family: 'Montserrat', sans-serif; */
 }
 body > #root  {
   height: 100vh;
 }
-body{
+/* body{
   overflow: hidden;
-}
+} */
 body, html {
   border: 0;
   margin: 0;
@@ -31,7 +37,9 @@ nav {
 
 /* front page styles go in this section */
 .frontpage-top{
+  display: flex;
   justify-content: center;
+  align-items: center;
   color: whitesmoke;
   width: 100%;
   height: 15vh
@@ -52,13 +60,12 @@ nav {
 
 /* docs page styling goes in this section */
 .docs-page-container{
-  background-color: rgba(145, 143, 143, .5);
+  background-color: rgba(41, 40, 40, );
   border: 1px #ccc solid;
-  color:rgba(17, 17, 17);
+  color:rgb(255, 251, 251);
   height: 90%;
   width: 97%;
   margin: 10px;
-  display: block;
 }
 
 .docs-page-container-row{
@@ -68,7 +75,7 @@ nav {
 
 #scrollable-content{
   max-height: 95%;
-  overflow-y: scroll;
+
 }
 
 .row{

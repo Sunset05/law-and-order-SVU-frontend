@@ -8,7 +8,7 @@ export default function DocsPage() {
     return (
         <div className="docs-page-container">
 
-            <div className="row ">
+            <div className="row docs-page-container-row">
                 <DocsNavigation />
                 <DocsDisplay />
             </div>

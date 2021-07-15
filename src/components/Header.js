@@ -1,7 +1,8 @@
 import React from 'react'
-import {Container, Navbar, Nav, } from 'react-bootstrap'
+import {Container, Navbar, Nav } from 'react-bootstrap'
 
 export default function Header() {
+
     return (
         <Navbar bg="secondary" expand="lg" >
             <Container fluid>
@@ -12,6 +13,5 @@ export default function Header() {
                 </Nav>
             </Container>
         </Navbar>
-
     )
 }

@@ -34,19 +34,20 @@ export default function FrontPage() {
                 </div>
             </section>
 
-            <div className="">
-                <a href="/frontpage/detectives">detectives</a>
-                <a href="/frontpage/perps">perps</a>
+            <div className="character-selection-container">
+                <a className="character-selection" href="/frontpage/detectives">detectives</a>
+                <a className="character-selection" href="/frontpage/perps">perps</a>
             </div>
-
-            <Switch>
-                <Route exact path='/frontpage/detectives' 
-                    render={(props) => <Characters {...props} detectives={detectives}/>} 
-                />
-                <Route exact path='/frontpage/perps' 
-                    render={(props) => <Characters {...props} perps={perps}/>} 
-                />
-            </Switch>
+            <section>
+                <Switch>
+                    <Route exact path='/frontpage/detectives' 
+                        render={(props) => <Characters {...props} detectives={detectives}/>} 
+                    />
+                    <Route exact path='/frontpage/perps' 
+                        render={(props) => <Characters {...props} perps={perps}/>} 
+                    />
+                </Switch>
+            </section>
 
             <div>
                 some lame footer

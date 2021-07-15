@@ -12,3 +12,15 @@ nav {
   margin-bottom: 2em;
   padding: .5em;
 }
+
+.character-selection-container{
+  border: black;
+  display: flex;
+  margin-bottom: 50px;
+}
+.character-selection{
+  justify-content: center;
+  width: 20%;
+  height: 80%;
+
+}

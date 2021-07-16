@@ -17,7 +17,8 @@
     - semantic-ui-css v ^2.4.1
     - semantic-ui-react v ^2.0.3
     - node v 16.x
-
+    - Rails v 6.1.4
+    - Postgresql 
 # Setup
 to run this project on your local machine you need to clone this repository along with the backend repository [SVU-API-backend](https://github.com/Sunset05/law_and_order_api_backend). 
 

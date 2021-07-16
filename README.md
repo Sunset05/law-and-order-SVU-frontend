@@ -1,5 +1,5 @@
 # Getting Started with The Law and Order SVU API
- jklf;ajsdklf;ajskdlf
+  Welcome to the Law and Order SVU API. With this application you can checkout some of the detectives that have appeared in the show, and also some of the most memorable perps that they have busted.
 # Table of Contents
 - [Technologies](#Technologies)
 - [Demo](#Demo)

@@ -2,9 +2,11 @@
 Welcome to the Law and Order SVU API. With this application you can checkout some of the detectives that have appeared in the show, and also some of the most memorable perps   that they have busted.
 The api for this project is hosted on Heroku
   to retrieve resources from the API you can send a GET to the following routes
+  ```
   https://law-and-order-api.herokuapp.com/perps
   https://law-and-order-api.herokuapp.com/detectives
   https://law-and-order-api.herokuapp.com/episodes
+  ```
   
 # Table of Contents
 - [Technologies](#Technologies)

@@ -8,17 +8,16 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(19,64,102,0.99623599439
   max-height: 100%;
   font-family: 'Montserrat', sans-serif;
 }
+
 html{
-  background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(19,64,102,0.9962359943977591) 100%);
-  /* font-family: 'Montserrat', sans-serif; */
+  background: rgb(19,64,102);
+  background: linear-gradient(0deg, rgba(19,64,102,1) 44%, rgba(0,0,0,1) 100%);
 }
+
 body > #root  {
   height: 100vh;
 }
-/* body{
-  overflow: hidden;
-} */
+
 body, html {
   border: 0;
   margin: 0;
@@ -33,7 +32,6 @@ nav {
   margin-bottom: 2em;
   padding: .5em;
 }
-
 
 /* front page styles go in this section */
 .frontpage-top{
@@ -51,6 +49,7 @@ nav {
   justify-content: space-between;
   margin-bottom: 50px;
 }
+
 .character-selection{
   display: flex;
   justify-content: center;

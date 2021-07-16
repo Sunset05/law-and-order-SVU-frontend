@@ -11,21 +11,13 @@ function App() {
   return (
     <Router>
       <Header />
-
-      
       <Switch>
         <Route exact path="/" >
           <Redirect to="/frontpage" />
         </Route>
         <Route exact path='/docs' component={DocsPage} />
         <Route  path='/frontpage' component={FrontPage} />
-
-
       </Switch>
-      
-
-      
-      
     </Router>
   );
 }

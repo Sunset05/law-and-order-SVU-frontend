@@ -2,11 +2,12 @@ import React from 'react'
 import { Card, Image } from "semantic-ui-react"
 
 export default function Characters(props) {
+
     const renderDetectives = () => 
         props.detectives.map(detective => 
             <div className="character-card">
                 <Card>
-                    <img src={detective.image} height={350} />
+                    <img src={detective.image} height={350} alt="#" />
                     <Card.Content>
                         <Card.Header>{detective.name}</Card.Header>
                         <Card.Description>
@@ -17,6 +18,7 @@ export default function Characters(props) {
             </div>
                 
         )
+
     const renderPerps = () =>
         props.perps.map(perp =>
             <div className="character-card">
@@ -34,7 +36,6 @@ export default function Characters(props) {
         )
 
     return (
-
         <Card.Group>
             {
             props.detectives 

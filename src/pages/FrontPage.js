@@ -1,12 +1,11 @@
 import React, {useState, useEffect} from 'react'
 import { BrowserRouter as  Switch, Route } from 'react-router-dom'
 import Characters from '../components/Characters'
-// import Perps from '../components/Perps'
 
 const developmentDetectives = "http://localhost:3000/detectives"
 const developmentPerps = "http://localhost:3000/perps"
-const deploymentDetectives = 'https://law-and-order-api.herokuapp.com/detectives/'
-const deploymentPerps = 'https://law-and-order-api.herokuapp.com/perps/'
+// const deploymentDetectives = 'https://law-and-order-api.herokuapp.com/detectives/'
+// const deploymentPerps = 'https://law-and-order-api.herokuapp.com/perps/'
 
 export default function FrontPage() {
     const [detectives, setDetectives] = useState([])
@@ -26,16 +25,21 @@ export default function FrontPage() {
     return (
         <>
             <section className="frontpage-top">
-                <h1 className="svu-frontpage-title">
-                    The Law and Order SVU API
-                </h1>
-                
+                <h1 className="svu-frontpage-title">The Law and Order SVU API</h1>
             </section>
 
             <div className="container">
                 <div className="character-selection-container">
-                    <a className="character-selection button" href="/frontpage/">detectives</a>
-                    <a className="character-selection button" href="/frontpage/perps">perps</a>
+                    <a className="character-selection button" 
+                        href="/frontpage/" 
+                        style={{color:'white'}}
+                        >detectives
+                    </a>
+                    <a className="character-selection button" 
+                        href="/frontpage/perps" 
+                        style={{color:'white'}}
+                        >perps
+                    </a>
                 </div>
 
                 <section>
@@ -49,9 +53,6 @@ export default function FrontPage() {
                     </Switch>
                 </section>
 
-                <div>
-                    some lame footer
-                </div>
             </div>
         </>
 
